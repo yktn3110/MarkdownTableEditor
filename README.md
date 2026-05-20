@@ -3,6 +3,7 @@
 Markdownドキュメント内のテーブル編集に特化した、ローカル完結型の軽量エディタ。
 
 ![license](https://img.shields.io/badge/license-MIT-blue)
+![platform](https://img.shields.io/badge/platform-Windows-0078d4?logo=windows)
 
 ---
 
