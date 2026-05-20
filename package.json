@@ -2,6 +2,7 @@
   "name": "tabledraft",
   "private": true,
   "version": "0.1.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "start": "concurrently \"node server.js\" \"vite\"",

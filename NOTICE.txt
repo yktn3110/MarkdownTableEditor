@@ -1,0 +1,1098 @@
+├─ @types/debug@4.1.13
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\debug
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\debug\LICENSE
+├─ @types/mdast@4.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\mdast
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\mdast\LICENSE
+├─ @types/ms@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\ms
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\ms\LICENSE
+├─ @types/react@19.2.14
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\react
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\react\LICENSE
+├─ @types/unist@3.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\unist
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\@types\unist\LICENSE
+├─ accepts@1.3.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/accepts
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\accepts
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\accepts\LICENSE
+├─ array-flatten@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/blakeembrey/array-flatten
+│  ├─ publisher: Blake Embrey
+│  ├─ email: hello@blakeembrey.com
+│  ├─ url: http://blakeembrey.me
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\array-flatten
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\array-flatten\LICENSE
+├─ bail@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wooorm/bail
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\bail
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\bail\license
+├─ body-parser@1.20.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/body-parser
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\body-parser
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\body-parser\LICENSE
+├─ bundle-name@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/bundle-name
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\bundle-name
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\bundle-name\license
+├─ bytes@3.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/bytes.js
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ url: http://tjholowaychuk.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\bytes
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\bytes\LICENSE
+├─ call-bind-apply-helpers@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/call-bind-apply-helpers
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\call-bind-apply-helpers
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\call-bind-apply-helpers\LICENSE
+├─ call-bound@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/call-bound
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\call-bound
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\call-bound\LICENSE
+├─ ccount@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wooorm/ccount
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\ccount
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\ccount\license
+├─ character-entities@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wooorm/character-entities
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\character-entities
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\character-entities\license
+├─ content-disposition@0.5.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/content-disposition
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\content-disposition
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\content-disposition\LICENSE
+├─ content-type@1.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/content-type
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\content-type
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\content-type\LICENSE
+├─ cookie-signature@1.0.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/node-cookie-signature
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@learnboost.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\cookie-signature
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\cookie-signature\Readme.md
+├─ cookie@0.7.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/cookie
+│  ├─ publisher: Roman Shtylman
+│  ├─ email: shtylman@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\cookie
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\cookie\LICENSE
+├─ csstype@3.2.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/frenic/csstype
+│  ├─ publisher: Fredrik Nicol
+│  ├─ email: fredrik.nicol@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\csstype
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\csstype\LICENSE
+├─ debug@2.6.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/debug
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\body-parser\node_modules\debug
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\body-parser\node_modules\debug\LICENSE
+├─ debug@4.4.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/debug-js/debug
+│  ├─ publisher: Josh Junon
+│  ├─ url: https://github.com/qix-
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\debug
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\debug\LICENSE
+├─ decode-named-character-reference@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wooorm/decode-named-character-reference
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\decode-named-character-reference
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\decode-named-character-reference\license
+├─ default-browser-id@5.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/default-browser-id
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\default-browser-id
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\default-browser-id\license
+├─ default-browser@5.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/default-browser
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\default-browser
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\default-browser\license
+├─ define-lazy-prop@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/define-lazy-prop
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\define-lazy-prop
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\define-lazy-prop\license
+├─ depd@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dougwilson/nodejs-depd
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\depd
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\depd\LICENSE
+├─ dequal@2.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lukeed/dequal
+│  ├─ publisher: Luke Edwards
+│  ├─ email: luke.edwards05@gmail.com
+│  ├─ url: https://lukeed.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\dequal
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\dequal\license
+├─ destroy@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/destroy
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\destroy
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\destroy\LICENSE
+├─ devlop@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wooorm/devlop
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\devlop
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\devlop\license
+├─ dunder-proto@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/es-shims/dunder-proto
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\dunder-proto
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\dunder-proto\LICENSE
+├─ ee-first@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonathanong/ee-first
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\ee-first
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\ee-first\LICENSE
+├─ encodeurl@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/encodeurl
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\encodeurl
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\encodeurl\LICENSE
+├─ es-define-property@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/es-define-property
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\es-define-property
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\es-define-property\LICENSE
+├─ es-errors@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/es-errors
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\es-errors
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\es-errors\LICENSE
+├─ es-object-atoms@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/es-object-atoms
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\es-object-atoms
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\es-object-atoms\LICENSE
+├─ escape-html@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/escape-html
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\escape-html
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\escape-html\LICENSE
+├─ escape-string-regexp@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/escape-string-regexp
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\escape-string-regexp
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\escape-string-regexp\license
+├─ etag@1.8.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/etag
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\etag
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\etag\LICENSE
+├─ express@4.22.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/express
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\express
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\express\LICENSE
+├─ extend@3.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/justmoon/node-extend
+│  ├─ publisher: Stefan Thomas
+│  ├─ email: justmoon@members.fsf.org
+│  ├─ url: http://www.justmoon.net
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\extend
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\extend\LICENSE
+├─ finalhandler@1.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/finalhandler
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\finalhandler
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\finalhandler\LICENSE
+├─ forwarded@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/forwarded
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\forwarded
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\forwarded\LICENSE
+├─ fresh@0.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/fresh
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ url: http://tjholowaychuk.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\fresh
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\fresh\LICENSE
+├─ function-bind@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Raynos/function-bind
+│  ├─ publisher: Raynos
+│  ├─ email: raynos2@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\function-bind
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\function-bind\LICENSE
+├─ get-intrinsic@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/get-intrinsic
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\get-intrinsic
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\get-intrinsic\LICENSE
+├─ get-proto@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/get-proto
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\get-proto
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\get-proto\LICENSE
+├─ gopd@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/gopd
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\gopd
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\gopd\LICENSE
+├─ has-symbols@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inspect-js/has-symbols
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ url: http://ljharb.codes
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\has-symbols
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\has-symbols\LICENSE
+├─ hasown@2.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inspect-js/hasOwn
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\hasown
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\hasown\LICENSE
+├─ http-errors@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/http-errors
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\http-errors
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\http-errors\LICENSE
+├─ iconv-lite@0.4.24
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ashtuchkin/iconv-lite
+│  ├─ publisher: Alexander Shtuchkin
+│  ├─ email: ashtuchkin@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\iconv-lite
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\iconv-lite\LICENSE
+├─ inherits@2.0.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/inherits
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\inherits
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\inherits\LICENSE
+├─ ipaddr.js@1.9.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/whitequark/ipaddr.js
+│  ├─ publisher: whitequark
+│  ├─ email: whitequark@whitequark.org
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\ipaddr.js
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\ipaddr.js\LICENSE
+├─ is-docker@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-docker
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\is-docker
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\is-docker\license
+├─ is-inside-container@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-inside-container
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\is-inside-container
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\is-inside-container\license
+├─ is-plain-obj@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-plain-obj
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\is-plain-obj
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\is-plain-obj\license
+├─ is-wsl@3.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-wsl
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\is-wsl
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\is-wsl\license
+├─ longest-streak@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wooorm/longest-streak
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\longest-streak
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\longest-streak\license
+├─ markdown-table@3.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wooorm/markdown-table
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\markdown-table
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\markdown-table\license
+├─ math-intrinsics@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/es-shims/math-intrinsics
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\math-intrinsics
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\math-intrinsics\LICENSE
+├─ mdast-util-find-and-replace@3.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-find-and-replace
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-find-and-replace
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-find-and-replace\license
+├─ mdast-util-from-markdown@2.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-from-markdown
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-from-markdown
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-from-markdown\license
+├─ mdast-util-gfm-autolink-literal@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-gfm-autolink-literal
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-autolink-literal
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-autolink-literal\license
+├─ mdast-util-gfm-footnote@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-gfm-footnote
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-footnote
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-footnote\license
+├─ mdast-util-gfm-strikethrough@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-gfm-strikethrough
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-strikethrough
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-strikethrough\license
+├─ mdast-util-gfm-table@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-gfm-table
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-table
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-table\license
+├─ mdast-util-gfm-task-list-item@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-gfm-task-list-item
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-task-list-item
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm-task-list-item\license
+├─ mdast-util-gfm@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-gfm
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-gfm\license
+├─ mdast-util-phrasing@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-phrasing
+│  ├─ publisher: Victor Felder
+│  ├─ email: victor@draft.li
+│  ├─ url: https://draft.li
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-phrasing
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-phrasing\license
+├─ mdast-util-to-markdown@2.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-to-markdown
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-to-markdown
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-to-markdown\license
+├─ mdast-util-to-string@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/mdast-util-to-string
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-to-string
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mdast-util-to-string\license
+├─ media-typer@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/media-typer
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\media-typer
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\media-typer\LICENSE
+├─ merge-descriptors@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/merge-descriptors
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\merge-descriptors
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\merge-descriptors\LICENSE
+├─ methods@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/methods
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\methods
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\methods\LICENSE
+├─ micromark-core-commonmark@2.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-core-commonmark
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-core-commonmark
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-core-commonmark\license
+├─ micromark-extension-gfm-autolink-literal@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark-extension-gfm-autolink-literal
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-autolink-literal
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-autolink-literal\license
+├─ micromark-extension-gfm-footnote@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark-extension-gfm-footnote
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-footnote
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-footnote\license
+├─ micromark-extension-gfm-strikethrough@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark-extension-gfm-strikethrough
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-strikethrough
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-strikethrough\license
+├─ micromark-extension-gfm-table@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark-extension-gfm-table
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-table
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-table\license
+├─ micromark-extension-gfm-tagfilter@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark-extension-gfm-tagfilter
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-tagfilter
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-tagfilter\license
+├─ micromark-extension-gfm-task-list-item@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark-extension-gfm-task-list-item
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-task-list-item
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm-task-list-item\license
+├─ micromark-extension-gfm@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark-extension-gfm
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-extension-gfm\license
+├─ micromark-factory-destination@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-factory-destination
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-destination
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-destination\license
+├─ micromark-factory-label@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-factory-label
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-label
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-label\license
+├─ micromark-factory-space@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-factory-space
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-space
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-space\license
+├─ micromark-factory-title@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-factory-title
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-title
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-title\license
+├─ micromark-factory-whitespace@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-factory-whitespace
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-whitespace
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-factory-whitespace\license
+├─ micromark-util-character@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-character
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-character
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-character\license
+├─ micromark-util-chunked@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-chunked
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-chunked
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-chunked\license
+├─ micromark-util-classify-character@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-classify-character
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-classify-character
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-classify-character\license
+├─ micromark-util-combine-extensions@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-combine-extensions
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-combine-extensions
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-combine-extensions\license
+├─ micromark-util-decode-numeric-character-reference@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-decode-numeric-character-reference
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-decode-numeric-character-reference
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-decode-numeric-character-reference\license
+├─ micromark-util-decode-string@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-decode-string
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-decode-string
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-decode-string\license
+├─ micromark-util-encode@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-encode
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-encode
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-encode\license
+├─ micromark-util-html-tag-name@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-html-tag-name
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-html-tag-name
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-html-tag-name\license
+├─ micromark-util-normalize-identifier@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-normalize-identifier
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-normalize-identifier
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-normalize-identifier\license
+├─ micromark-util-resolve-all@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-resolve-all
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-resolve-all
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-resolve-all\license
+├─ micromark-util-sanitize-uri@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-sanitize-uri
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-sanitize-uri
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-sanitize-uri\license
+├─ micromark-util-subtokenize@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-subtokenize
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-subtokenize
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-subtokenize\license
+├─ micromark-util-symbol@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-symbol
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-symbol
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-symbol\license
+├─ micromark-util-types@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark-util-types
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-types
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark-util-types\license
+├─ micromark@4.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromark/micromark/tree/main/packages/micromark
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\micromark\license
+├─ mime-db@1.52.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/mime-db
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mime-db
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mime-db\LICENSE
+├─ mime-types@2.1.35
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/mime-types
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mime-types
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mime-types\LICENSE
+├─ mime@1.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/broofa/node-mime
+│  ├─ publisher: Robert Kieffer
+│  ├─ email: robert@broofa.com
+│  ├─ url: http://github.com/broofa
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mime
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\mime\LICENSE
+├─ ms@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/zeit/ms
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\body-parser\node_modules\ms
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\body-parser\node_modules\ms\license.md
+├─ ms@2.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/vercel/ms
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\ms
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\ms\license.md
+├─ negotiator@0.6.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/negotiator
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\negotiator
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\negotiator\LICENSE
+├─ object-inspect@1.13.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/inspect-js/object-inspect
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\object-inspect
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\object-inspect\LICENSE
+├─ on-finished@2.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/on-finished
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\on-finished
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\on-finished\LICENSE
+├─ open@10.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/open
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\open
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\open\license
+├─ parseurl@1.3.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/parseurl
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\parseurl
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\parseurl\LICENSE
+├─ path-to-regexp@0.1.13
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/path-to-regexp
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\path-to-regexp
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\path-to-regexp\LICENSE
+├─ proxy-addr@2.0.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/proxy-addr
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\proxy-addr
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\proxy-addr\LICENSE
+├─ qs@6.15.2
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/ljharb/qs
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\qs
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\qs\LICENSE.md
+├─ range-parser@1.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/range-parser
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ url: http://tjholowaychuk.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\range-parser
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\range-parser\LICENSE
+├─ raw-body@2.5.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/raw-body
+│  ├─ publisher: Jonathan Ong
+│  ├─ email: me@jongleberry.com
+│  ├─ url: http://jongleberry.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\raw-body
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\raw-body\LICENSE
+├─ react-data-grid@7.0.0-beta.59
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Comcast/react-data-grid
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\react-data-grid
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\react-data-grid\LICENSE
+├─ react-dom@19.2.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/facebook/react
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\react-dom
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\react-dom\LICENSE
+├─ react@19.2.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/facebook/react
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\react
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\react\LICENSE
+├─ remark-gfm@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/remarkjs/remark-gfm
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\remark-gfm
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\remark-gfm\license
+├─ remark-parse@11.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/remarkjs/remark/tree/main/packages/remark-parse
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\remark-parse
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\remark-parse\license
+├─ remark-stringify@11.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/remarkjs/remark/tree/main/packages/remark-stringify
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\remark-stringify
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\remark-stringify\license
+├─ run-applescript@7.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/run-applescript
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\run-applescript
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\run-applescript\license
+├─ safe-buffer@5.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/safe-buffer
+│  ├─ publisher: Feross Aboukhadijeh
+│  ├─ email: feross@feross.org
+│  ├─ url: https://feross.org
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\safe-buffer
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\safe-buffer\LICENSE
+├─ safer-buffer@2.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ChALkeR/safer-buffer
+│  ├─ publisher: Nikita Skovoroda
+│  ├─ email: chalkerx@gmail.com
+│  ├─ url: https://github.com/ChALkeR
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\safer-buffer
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\safer-buffer\LICENSE
+├─ scheduler@0.27.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/facebook/react
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\scheduler
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\scheduler\LICENSE
+├─ send@0.19.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/send
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\send
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\send\LICENSE
+├─ serve-static@1.16.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/serve-static
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\serve-static
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\serve-static\LICENSE
+├─ setprototypeof@1.2.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/wesleytodd/setprototypeof
+│  ├─ publisher: Wes Todd
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\setprototypeof
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\setprototypeof\LICENSE
+├─ side-channel-list@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/side-channel-list
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\side-channel-list
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\side-channel-list\LICENSE
+├─ side-channel-map@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/side-channel-map
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\side-channel-map
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\side-channel-map\LICENSE
+├─ side-channel-weakmap@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/side-channel-weakmap
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\side-channel-weakmap
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\side-channel-weakmap\LICENSE
+├─ side-channel@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ljharb/side-channel
+│  ├─ publisher: Jordan Harband
+│  ├─ email: ljharb@gmail.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\side-channel
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\side-channel\LICENSE
+├─ statuses@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/statuses
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\statuses
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\statuses\LICENSE
+├─ tabledraft@0.1.0
+│  ├─ licenses: UNLICENSED
+│  ├─ private: true
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\README.md
+├─ toidentifier@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/toidentifier
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\toidentifier
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\toidentifier\LICENSE
+├─ trough@2.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wooorm/trough
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\trough
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\trough\license
+├─ type-is@1.6.18
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/type-is
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\type-is
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\type-is\LICENSE
+├─ unified@11.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/unifiedjs/unified
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unified
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unified\license
+├─ unist-util-is@6.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/unist-util-is
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unist-util-is
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unist-util-is\license
+├─ unist-util-stringify-position@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/unist-util-stringify-position
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unist-util-stringify-position
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unist-util-stringify-position\license
+├─ unist-util-visit-parents@6.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/unist-util-visit-parents
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unist-util-visit-parents
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unist-util-visit-parents\license
+├─ unist-util-visit@5.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/syntax-tree/unist-util-visit
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unist-util-visit
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unist-util-visit\license
+├─ unpipe@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/unpipe
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unpipe
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\unpipe\LICENSE
+├─ utils-merge@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jaredhanson/utils-merge
+│  ├─ publisher: Jared Hanson
+│  ├─ email: jaredhanson@gmail.com
+│  ├─ url: http://www.jaredhanson.net/
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\utils-merge
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\utils-merge\LICENSE
+├─ vary@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/vary
+│  ├─ publisher: Douglas Christopher Wilson
+│  ├─ email: doug@somethingdoug.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\vary
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\vary\LICENSE
+├─ vfile-message@4.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/vfile/vfile-message
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\vfile-message
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\vfile-message\license
+├─ vfile@6.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/vfile/vfile
+│  ├─ publisher: Titus Wormer
+│  ├─ email: tituswormer@gmail.com
+│  ├─ url: https://wooorm.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\vfile
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\vfile\license
+├─ wsl-utils@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/wsl-utils
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\wsl-utils
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\wsl-utils\license
+├─ zustand@5.0.13
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pmndrs/zustand
+│  ├─ publisher: Paul Henschel
+│  ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\zustand
+│  └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\zustand\LICENSE
+└─ zwitch@2.0.4
+   ├─ licenses: MIT
+   ├─ repository: https://github.com/wooorm/zwitch
+   ├─ publisher: Titus Wormer
+   ├─ email: tituswormer@gmail.com
+   ├─ url: https://wooorm.com
+   ├─ path: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\zwitch
+   └─ licenseFile: C:\Users\yuki3\work\MarkdownTableEditor\node_modules\zwitch\license
