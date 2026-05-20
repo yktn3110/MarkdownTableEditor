@@ -3,10 +3,27 @@
 .rdg {
   block-size: 100% !important;
   border: none !important;
+  --rdg-color: #cbd5e1;
+  --rdg-background-color: #0f172a;
+  --rdg-header-background-color: #1e293b;
+  --rdg-row-hover-background-color: #162035;
+  --rdg-selection-color: #22d3ee;
+  --rdg-border-color: transparent;
+  font-family: ui-monospace, 'Cascadia Code', 'JetBrains Mono', monospace;
+  font-size: 13px;
 }
 
 .rdg-cell {
-  border-right: 1px solid #d1d5db !important;
-  border-bottom: 1px solid #d1d5db !important;
+  border-right: 1px solid #1e293b !important;
+  border-bottom: 1px solid #1e293b !important;
   padding-inline: 12px !important;
+}
+
+.rdg-header-row .rdg-cell {
+  border-bottom: 1px solid #334155 !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.07em !important;
+  color: #475569 !important;
 }

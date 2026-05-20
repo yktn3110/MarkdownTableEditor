@@ -82,7 +82,7 @@ export function MultilineEditor({ row, column, onRowChange, onClose, gridRef, co
   return (
     <textarea
       ref={textareaRef}
-      className="w-full h-full resize-none px-2 py-1 text-sm font-mono leading-tight bg-white outline-none border-2 border-blue-500 box-border"
+      className="w-full h-full resize-none px-2 py-1 text-sm font-mono leading-tight bg-slate-900 text-slate-200 outline-none border-2 border-cyan-400 box-border"
       defaultValue={displayValue}
       onChange={(e) => {
         const matched = e.target.value === valueRef.current + '\n';
@@ -146,7 +146,7 @@ function EditableHeader({ value, onCommit }: { value: string; onCommit: (v: stri
         onDoubleClick={(e) => { e.stopPropagation(); setEditing(true); }}
         title="ダブルクリックで編集"
       >
-        {value || <span className="text-gray-400 italic text-xs">（列名）</span>}
+        {value || <span className="text-slate-600 italic text-xs">（列名）</span>}
       </div>
     );
   }
@@ -163,7 +163,7 @@ function EditableHeader({ value, onCommit }: { value: string; onCommit: (v: stri
         e.stopPropagation();
       }}
       onClick={(e) => e.stopPropagation()}
-      className="w-full h-full bg-transparent font-semibold text-sm outline-none border-b-2 border-blue-500 px-1"
+      className="w-full h-full bg-transparent font-semibold text-sm font-mono outline-none border-b-2 border-cyan-400 px-1"
     />
   );
 }
@@ -184,12 +184,12 @@ function GridToolbar({ tableId, selectedRow, rowCount }: ToolbarProps) {
   const canMoveDown = selectedRow !== null && selectedRow < rowCount - 1;
 
   const iconBtn = (enabled: boolean) =>
-    `p-1.5 rounded transition-colors ${enabled ? 'text-gray-500 hover:bg-gray-100 hover:text-gray-800' : 'text-gray-300 cursor-not-allowed'}`;
+    `p-1.5 rounded transition-colors ${enabled ? 'text-slate-400 hover:bg-slate-700 hover:text-white' : 'text-slate-700 cursor-not-allowed'}`;
 
   return (
-    <div className="flex items-center gap-0.5 px-2 py-1.5 bg-gray-50 border-b border-gray-200 flex-shrink-0">
+    <div className="flex items-center gap-0.5 px-2 py-1.5 bg-slate-900 border-b border-slate-800 flex-shrink-0">
       <button
-        className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium text-gray-600 rounded hover:bg-white hover:shadow-sm hover:text-gray-900 border border-transparent hover:border-gray-200 transition-all"
+        className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium text-slate-300 rounded hover:bg-slate-800 hover:text-white border border-transparent hover:border-slate-700 transition-all"
         onClick={() => addRow(tableId, selectedRow ?? undefined)}
         title={selectedRow !== null ? '選択行の下に行を追加' : '末尾に行を追加'}
       >
@@ -199,7 +199,7 @@ function GridToolbar({ tableId, selectedRow, rowCount }: ToolbarProps) {
         行を追加
       </button>
       <button
-        className={`flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium rounded border border-transparent transition-all ${canDelete ? 'text-gray-600 hover:bg-white hover:shadow-sm hover:text-red-600 hover:border-red-100' : 'text-gray-300 cursor-not-allowed'}`}
+        className={`flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium rounded border border-transparent transition-all ${canDelete ? 'text-slate-300 hover:bg-red-500/10 hover:text-red-400 hover:border-red-500/20' : 'text-slate-600 cursor-not-allowed'}`}
         disabled={!canDelete}
         onClick={() => selectedRow !== null && deleteRow(tableId, selectedRow)}
         title="選択行を削除"
@@ -209,7 +209,7 @@ function GridToolbar({ tableId, selectedRow, rowCount }: ToolbarProps) {
         </svg>
         行を削除
       </button>
-      <div className="w-px h-4 bg-gray-200 mx-1" />
+      <div className="w-px h-4 bg-slate-700 mx-1" />
       <button
         className={iconBtn(canMoveUp)}
         disabled={!canMoveUp}
@@ -247,7 +247,7 @@ export function TableGrid() {
 
   if (!table) {
     return (
-      <div className="flex-1 flex items-center justify-center text-gray-400 text-sm">
+      <div className="flex-1 flex items-center justify-center text-slate-700 text-sm font-mono">
         テーブルを選択してください
       </div>
     );
@@ -308,7 +308,7 @@ export function TableGrid() {
 
   return (
     <div
-      className="flex-1 min-w-0 flex flex-col overflow-hidden p-3"
+      className="flex-1 min-w-0 flex flex-col overflow-hidden p-3 bg-slate-950"
       onKeyDown={(e) => {
         // Alt+↑↓ で行移動
         if (!e.altKey || selectedRow === null) return;
@@ -323,7 +323,7 @@ export function TableGrid() {
         }
       }}
     >
-      <div className="flex flex-col flex-1 min-h-0 border border-gray-300 rounded shadow-sm overflow-hidden">
+      <div className="flex flex-col flex-1 min-h-0 border border-slate-700/50 rounded overflow-hidden">
         <GridToolbar tableId={table.id} selectedRow={selectedRow} rowCount={dataRows.length} />
         <DataGrid
           ref={gridRef}
