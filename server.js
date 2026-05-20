@@ -1,12 +1,12 @@
 import express from 'express';
 import open from 'open';
-import { exec } from 'child_process';
+import { execFile } from 'child_process';
 import { readFile, writeFile } from 'fs/promises';
 import { promisify } from 'util';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-const execAsync = promisify(exec);
+const execFileAsync = promisify(execFile);
 const app = express();
 app.use(express.json({ limit: '10mb' }));
 
@@ -21,6 +21,7 @@ if (IS_PACKAGED) {
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
 
+
 async function runPsScript(script) {
   const wrapped = `
 $ProgressPreference = 'SilentlyContinue'
@@ -28,9 +29,10 @@ $ProgressPreference = 'SilentlyContinue'
 ${script}
 `.trim();
   const encoded = Buffer.from(wrapped, 'utf16le').toString('base64');
-  const { stdout } = await execAsync(
-    `powershell -NoProfile -ExecutionPolicy Bypass -EncodedCommand ${encoded}`,
-    { encoding: 'buffer' }
+  const { stdout } = await execFileAsync(
+    'powershell',
+    ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-EncodedCommand', encoded],
+    { encoding: 'buffer', windowsHide: true }
   );
   // PowerShell が CLIXML ノイズを stdout に出力する場合があるためフィルタする
   const lines = stdout.toString('utf-8')
@@ -43,16 +45,12 @@ ${script}
 app.post('/api/open-file-dialog', async (req, res) => {
   const script = `
 Add-Type -AssemblyName System.Windows.Forms
-$owner = New-Object System.Windows.Forms.Form
-$owner.TopMost = $true
-$owner.StartPosition = 'CenterScreen'
-$null = $owner.Handle
+[System.Windows.Forms.Application]::EnableVisualStyles()
+[System.Windows.Forms.Application]::SetCompatibleTextRenderingDefault($false)
 $dialog = New-Object System.Windows.Forms.OpenFileDialog
 $dialog.Filter = "Markdown files (*.md;*.markdown)|*.md;*.markdown|All files (*.*)|*.*"
 $dialog.Title = "Markdownファイルを開く"
-$result = $dialog.ShowDialog($owner)
-$owner.Dispose()
-if ($result -eq [System.Windows.Forms.DialogResult]::OK) {
+if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
   Write-Output $dialog.FileName
 }
 `;
