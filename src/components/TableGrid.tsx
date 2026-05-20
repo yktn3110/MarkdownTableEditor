@@ -36,11 +36,9 @@ export function MultilineEditor({ row, column, onRowChange, onClose, gridRef, co
     // \n が末尾に挿入されることを保証することで onChange 側の検出を確実にする。
     queueMicrotask(() => {
       if (closedRef.current) return;
-      console.log('[M] microtask. el.value before:', JSON.stringify(el.value), 'displayValue:', JSON.stringify(displayValue));
       el.value = displayValue;
       valueRef.current = displayValue;
       el.setSelectionRange(displayValue.length, displayValue.length);
-      console.log('[M] microtask done. el.value:', JSON.stringify(el.value));
     });
     return () => el.removeEventListener('keydown', blockEnter);
   }, []);
@@ -71,7 +69,6 @@ export function MultilineEditor({ row, column, onRowChange, onClose, gridRef, co
 
   const commit = (rawValue: string, direction?: 'up' | 'down' | 'left' | 'right') => {
     if (closedRef.current) return;
-    console.log('[M] commit:', JSON.stringify(rawValue), direction);
     closedRef.current = true;
     const stored = rawValue.replace(/\n/g, '<br>');
     onRowChange({ ...row, [column.key]: stored }, true);
@@ -85,14 +82,11 @@ export function MultilineEditor({ row, column, onRowChange, onClose, gridRef, co
       className="w-full h-full resize-none px-2 py-1 text-sm font-mono leading-tight bg-slate-900 text-slate-200 outline-none border-2 border-cyan-400 box-border"
       defaultValue={displayValue}
       onChange={(e) => {
-        const matched = e.target.value === valueRef.current + '\n';
-        console.log('[M] onChange firstDone:', firstChangeDoneRef.current, 'matched:', matched, 'val:', JSON.stringify(e.target.value), 'valueRef:', JSON.stringify(valueRef.current));
         if (!firstChangeDoneRef.current) {
           firstChangeDoneRef.current = true;
-          if (matched) {
+          if (e.target.value === valueRef.current + '\n') {
             e.target.value = valueRef.current;
             e.target.setSelectionRange(valueRef.current.length, valueRef.current.length);
-            console.log('[M] onChange: reverted accidental \\n');
             return;
           }
         }
@@ -108,10 +102,8 @@ export function MultilineEditor({ row, column, onRowChange, onClose, gridRef, co
           el.value = el.value.substring(0, start) + '\n' + el.value.substring(end);
           el.selectionStart = el.selectionEnd = start + 1;
           valueRef.current = el.value;
-          console.log('[M] Alt+Enter inserted. valueRef:', JSON.stringify(valueRef.current));
         } else if (e.key === 'Enter') {
           e.stopPropagation();
-          console.log('[M] Enter keydown shift:', e.shiftKey, 'valueRef:', JSON.stringify(valueRef.current));
           commit(valueRef.current, e.shiftKey ? 'up' : 'down');
         } else if (e.key === 'Tab') {
           e.preventDefault();

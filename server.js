@@ -1,9 +1,9 @@
 import express from 'express';
 import open from 'open';
 import { execFile } from 'child_process';
-import { readFile, writeFile } from 'fs/promises';
+import { readFile, writeFile, access } from 'fs/promises';
 import { promisify } from 'util';
-import { join, dirname } from 'path';
+import { join, dirname, resolve, extname } from 'path';
 import { fileURLToPath } from 'url';
 
 const execFileAsync = promisify(execFile);
@@ -62,8 +62,8 @@ if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
       return res.status(400).json({ error: 'ファイルサイズが5MBを超えているため開けません。' });
     }
     res.json({ path, content: buf.toString('utf-8') });
-  } catch (e) {
-    res.status(500).json({ error: String(e) });
+  } catch {
+    res.status(500).json({ error: 'ファイルを開けませんでした' });
   }
 });
 
@@ -72,16 +72,29 @@ app.post('/api/save-file', async (req, res) => {
   if (!path || content == null) {
     return res.status(400).json({ error: 'path and content are required' });
   }
+  if (typeof path !== 'string' || typeof content !== 'string') {
+    return res.status(400).json({ error: 'invalid request' });
+  }
+  const resolved = resolve(path);
+  const ext = extname(resolved).toLowerCase();
+  if (ext !== '.md' && ext !== '.markdown') {
+    return res.status(400).json({ error: 'invalid file type' });
+  }
   try {
-    await writeFile(path, content, 'utf-8');
+    await access(resolved);
+  } catch {
+    return res.status(400).json({ error: 'file not found' });
+  }
+  try {
+    await writeFile(resolved, content, 'utf-8');
     res.json({ ok: true });
-  } catch (e) {
-    res.status(500).json({ error: String(e) });
+  } catch {
+    res.status(500).json({ error: '保存に失敗しました' });
   }
 });
 
 const PORT = 3001;
-app.listen(PORT, () => {
+app.listen(PORT, '127.0.0.1', () => {
   const url = `http://localhost:${PORT}`;
   console.log(`TableDraft: ${url}`);
   if (IS_PACKAGED) {
