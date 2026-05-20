@@ -30,10 +30,21 @@ npx --yes postject "$OUT_DIR/tabledraft.exe" NODE_SEA_BLOB sea-prep.blob \
 echo "=== 6. Copy dist ==="
 cp -r dist "$OUT_DIR/dist"
 
-echo "=== 7. Cleanup temp files ==="
+echo "=== 7. Generate LICENSES ==="
+node_modules/.bin/license-checker --production --excludePrivatePackages --out "$OUT_DIR/LICENSES.txt"
+
+# Node.js 本体のライセンスを追加（SEA に埋め込まれるため）
+NODE_LICENSE="$(dirname "$(node -e 'process.stdout.write(process.execPath)')")/LICENSE"
+if [ -f "$NODE_LICENSE" ]; then
+  printf '\n\n========== Node.js ==========\n' >> "$OUT_DIR/LICENSES.txt"
+  cat "$NODE_LICENSE" >> "$OUT_DIR/LICENSES.txt"
+fi
+
+echo "=== 8. Cleanup temp files ==="
 rm -f server.bundle.cjs sea-prep.blob
 
 echo ""
 echo "Done! release/ フォルダを配布してください:"
 echo "  release/tabledraft.exe"
 echo "  release/dist/"
+echo "  release/LICENSES.txt"
