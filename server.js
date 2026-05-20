@@ -1,11 +1,23 @@
 import express from 'express';
+import open from 'open';
 import { exec } from 'child_process';
 import { readFile, writeFile } from 'fs/promises';
 import { promisify } from 'util';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
 const execAsync = promisify(exec);
 const app = express();
 app.use(express.json({ limit: '10mb' }));
+
+// esbuild が --define で '1' に置き換える。開発時は undefined のまま
+const IS_PACKAGED = process.env.TABLEDRAFT_PACKAGED === '1';
+
+// パッケージ版: exe と同じフォルダの dist/ を配信
+if (IS_PACKAGED) {
+  const baseDir = dirname(process.execPath);
+  app.use(express.static(join(baseDir, 'dist')));
+}
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
 
@@ -34,7 +46,7 @@ Add-Type -AssemblyName System.Windows.Forms
 $owner = New-Object System.Windows.Forms.Form
 $owner.TopMost = $true
 $owner.StartPosition = 'CenterScreen'
-$owner.Show()
+$null = $owner.Handle
 $dialog = New-Object System.Windows.Forms.OpenFileDialog
 $dialog.Filter = "Markdown files (*.md;*.markdown)|*.md;*.markdown|All files (*.*)|*.*"
 $dialog.Title = "Markdownファイルを開く"
@@ -72,6 +84,11 @@ app.post('/api/save-file', async (req, res) => {
 
 const PORT = 3001;
 app.listen(PORT, () => {
-  console.log(`TableDraft server: http://localhost:${PORT}`);
-  console.log(`Open http://localhost:5173 in your browser`);
+  const url = `http://localhost:${PORT}`;
+  console.log(`TableDraft: ${url}`);
+  if (IS_PACKAGED) {
+    open(url);
+  } else {
+    console.log(`Open http://localhost:5173 in your browser`);
+  }
 });
