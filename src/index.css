@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.rdg {
+  block-size: 100% !important;
+  border: none !important;
+}
+
+.rdg-cell {
+  border-right: 1px solid #d1d5db !important;
+  border-bottom: 1px solid #d1d5db !important;
+  padding-inline: 12px !important;
+}
