@@ -27,9 +27,11 @@ jobs:
 
       - name: Zip release
         shell: pwsh
-        run: Compress-Archive -Path release\* -DestinationPath tabledraft-windows.zip
+        run: |
+          Rename-Item release\tabledraft.exe "tabledraft-${{ github.ref_name }}.exe"
+          Compress-Archive -Path release\* -DestinationPath "tabledraft-${{ github.ref_name }}-windows.zip"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: tabledraft-windows.zip
+          files: "tabledraft-${{ github.ref_name }}-windows.zip"
